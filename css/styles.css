@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
 :root {
-    --background: rgba(1, 0, 1, 0.75)
+    --background: rgba(1, 1, 1, 0.75)
+}
+
+body {
+	margin: 0;
+	background: #888;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
 }
 
 header {
@@ -8,6 +17,10 @@ header {
     position: fixed;
     z-index: 999;
     width: 100%;
+}
+
+h1 {
+  color: white;
 }
 
 .nav-toggle {
